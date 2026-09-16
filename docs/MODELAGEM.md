@@ -66,13 +66,3 @@ O projeto fecha o ciclo respondendo, via SQL, às perguntas de negócio originai
 3. **Contratos vencendo nos próximos 30 dias** — filtro de intervalo de datas com `CURDATE()` e `DATE_ADD()`
 4. **Riscos de nível alto, com cliente de origem** — encadeamento de 3 `JOIN`s (`risco → processo → contrato → cliente`)
 
-## Possíveis evoluções futuras
-
-- Histórico de mudanças de complexidade do Processo (tabela de auditoria)
-- Atributos na relação Advogado-Processo (papel, data de alocação)
-- Views para as queries de negócio mais usadas
-- Camada de aplicação (API) consumindo esse banco
-
-## Autor
-
-Jullya — projeto desenvolvido como estudo de caso para portfólio, com foco em Data Governance e Legal Ops.
