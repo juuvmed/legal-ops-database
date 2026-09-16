@@ -29,7 +29,7 @@ O projeto percorreu o ciclo completo de modelagem de dados antes de qualquer con
 4. **Validação via queries** — cada pergunta de negócio original foi respondida com SQL antes de qualquer visualização, garantindo que os dados realmente sustentam as perguntas que o projeto se propõe a responder.
 5. **Camada de BI** — o banco relacional serve como fonte de dados viva para um dashboard em Power BI, fechando o pipeline da modelagem à visualização.
 
-Detalhes técnicos completos (schema, decisões de modelagem, constraints) estão documentados no [README técnico](./MODELAGEM.md).
+Detalhes técnicos completos (schema, decisões de modelagem, constraints) estão documentados no [README técnico](docs/MODELAGEM.md).
 
 ## Impacto esperado
 
